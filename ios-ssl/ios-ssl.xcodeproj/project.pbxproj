@@ -13,6 +13,10 @@
 		1180E28021F17AB100EA2DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1180E27F21F17AB100EA2DE2 /* Assets.xcassets */; };
 		1180E28321F17AB100EA2DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180E28121F17AB100EA2DE2 /* LaunchScreen.storyboard */; };
 		1180E28621F17AB100EA2DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1180E28521F17AB100EA2DE2 /* main.m */; };
+		1180E28F21F1836400EA2DE2 /* my.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1180E28C21F1836300EA2DE2 /* my.pem */; };
+		1180E29021F1836400EA2DE2 /* my.key in Resources */ = {isa = PBXBuildFile; fileRef = 1180E28D21F1836400EA2DE2 /* my.key */; };
+		1180E29121F1836400EA2DE2 /* my.crt2 in Resources */ = {isa = PBXBuildFile; fileRef = 1180E28E21F1836400EA2DE2 /* my.crt2 */; };
+		1180E29421F1AFDF00EA2DE2 /* my.crt in Resources */ = {isa = PBXBuildFile; fileRef = 1180E29321F1AE8A00EA2DE2 /* my.crt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		1180E28221F17AB100EA2DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1180E28421F17AB100EA2DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1180E28521F17AB100EA2DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1180E28C21F1836300EA2DE2 /* my.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my.pem; sourceTree = "<group>"; };
+		1180E28D21F1836400EA2DE2 /* my.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my.key; sourceTree = "<group>"; };
+		1180E28E21F1836400EA2DE2 /* my.crt2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my.crt2; sourceTree = "<group>"; };
+		1180E29221F1ABDB00EA2DE2 /* my.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; path = my.pfx; sourceTree = "<group>"; };
+		1180E29321F1AE8A00EA2DE2 /* my.crt */ = {isa = PBXFileReference; lastKnownFileType = file; path = my.crt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,11 @@
 		1180E27521F17AAF00EA2DE2 /* ios-ssl */ = {
 			isa = PBXGroup;
 			children = (
+				1180E29321F1AE8A00EA2DE2 /* my.crt */,
+				1180E29221F1ABDB00EA2DE2 /* my.pfx */,
+				1180E28E21F1836400EA2DE2 /* my.crt2 */,
+				1180E28D21F1836400EA2DE2 /* my.key */,
+				1180E28C21F1836300EA2DE2 /* my.pem */,
 				1180E27621F17AAF00EA2DE2 /* AppDelegate.h */,
 				1180E27721F17AAF00EA2DE2 /* AppDelegate.m */,
 				1180E27921F17AAF00EA2DE2 /* ViewController.h */,
@@ -128,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1180E29421F1AFDF00EA2DE2 /* my.crt in Resources */,
+				1180E29021F1836400EA2DE2 /* my.key in Resources */,
+				1180E28F21F1836400EA2DE2 /* my.pem in Resources */,
 				1180E28321F17AB100EA2DE2 /* LaunchScreen.storyboard in Resources */,
 				1180E28021F17AB100EA2DE2 /* Assets.xcassets in Resources */,
 				1180E27E21F17AAF00EA2DE2 /* Main.storyboard in Resources */,
+				1180E29121F1836400EA2DE2 /* my.crt2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
